@@ -13,7 +13,7 @@
 
 @media only screen and (max-width: 576px) {
     .header__column-left {
-       height: 100%;
+        height: 100%;
     }
 }
 
@@ -49,6 +49,7 @@
     color: #000000;
     margin-top: 48px;
 }
+
 @media only screen and (max-width: 576px) {
     .navbar-brand__text {
         width: 74px;
@@ -174,35 +175,111 @@
     position: absolute;
     padding: 15px;
 }
+
 /* Slider  */
-.slider__btn{
+.slider__btn {
     text-align: end;
     margin-top: 97px;
+    margin-right: 145px;
 }
-.slider__btn-style{
+
+@media only screen and (max-width: 576px) {
+    .slider__btn {
+        text-align: center;
+        margin-top: 10px;
+        margin-right: auto;
+    }
+}
+
+.slider__btn-style {
     margin: 6px 6px 6px 6px;
     height: 15px;
     border-radius: 20px;
     border: 1px solid #d4c6bd;
     background-color: #d4cac4;
 }
-.slider__btn-style:hover{
-    margin: 6px 6px 6px 6px;
-    height: 15px;
-    border-radius: 20px;
-    border: 1px solid #d4c6bd;
+
+.slider__btn-style:hover {
     background-color: #E89F71;
 }
-.slider__btn-hover:hover{
-    
+
+.slider__btn-hover:hover {
+
     border: 1px solid #E89F71;
     border-radius: 25px;
     transition: .1s;
-  
+
 }
 
-.carousel__image{
+.slider__btn-indicator {
+    text-align: end;
+    padding: 40px;
+}
+
+@media only screen and (max-width: 576px) {
+    .slider__btn-indicator {
+        display: none;
+    }
+}
+
+.indicator {
+    color: #E89F71;
+    font-size: 30px;
+    background-color: #f8d6c1;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    padding: 3px 16px 5px 16px;
+}
+
+.indicator:hover {
+
+    background-color: #E89F71;
+    color: white;
+}
+
+.slider__image {
+    margin-top: 55px;
+    display: flex;
+    position: absolute;
     width: auto;
-    height: auto;
-    
+    height: 520px;
+}
+
+@media only screen and (max-width: 576px) {
+    .slider__image {
+        margin-top: 22px;
+        display: flex;
+        position: absolute;
+        width: 189px;
+        height: 164px;
+    }
+}
+
+.slider__image img {
+    width: 60%;
+}
+
+.slider__image-style {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+/* Card */
+.card__style {
+    margin-left: 106px;
+    width: 29rem;
+    height: 499px;
+    background: rgba(255, 255, 255, 0.72);
+    opacity: 0.9;
+}
+.card__body-style{
+    margin: 60px;
+}
+.card__btn{
+    color: white;
+    width: 300px;
+    height: 78px;
+    border: none;
+    background-color: #E89F71;
 }
