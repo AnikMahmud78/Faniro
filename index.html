@@ -8,8 +8,7 @@
     <!-- link style sheet  -->
     <link rel="stylesheet" href="index.css">
     <!-- link bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- link font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +25,7 @@
     <!-- Header part -->
     <header>
         <div class="row header">
-            <div class="col-8 header__column--left">
+            <div class="col-sm-8 header__column-left">
                 <!-- navbar -->
                 <nav class="navbar navbar-expand-lg navbar-light navbar__conatiner ">
                     <div class="container-fluid ">
@@ -70,19 +69,36 @@
                                 <li class="nav-item nav-link__inspirations">
                                     <a class="nav-link ">Inspirations</a>
                                 </li>
+                                
                             </ul>
                             <form class="d-flex search">
                                 <i class="fas fa-search search__icon"></i>
                                 <input class="search__input " type="search" placeholder="Search for minimalist chair"
                                     aria-label="Search">
                             </form>
+                           
                         </div>
+                        
                     </div>
                 </nav>
+                <div class="slider__btn">
+                    <span class="slider__btn-hover"><button class="slider__btn-style" ></button></span>
+                   <span class="slider__btn-hover"> <button class="slider__btn-style"></button></span>
+                    <span class="slider__btn-hover"><button class="slider__btn-style"></button></span>
+                    <span class="slider__btn-hover"><button class="slider__btn-style"></button></span>
+                </div>
             </div>
-            <div class="col-4 header__column--right">col-4</div>
+            <div class="col-sm-4 header__column-right">
+                <div class="header__icon ">
+                    <i class="far fa-heart header__icon-padding"></i>
+                    <i class="fas fa-shopping-cart header__icon-padding"></i>
+                    <img src="images/Ellipse 2.png" alt="">
+                </div>
+            </div>
         </div>
     </header>
+    <!-- bootstrap bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
