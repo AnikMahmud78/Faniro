@@ -1,6 +1,6 @@
 /* header */
 .header {
-    width: 100%;
+    width: auto;
 }
 
 .header__column-left {
@@ -264,9 +264,31 @@
     margin-left: 32px;
     margin-right: 32px;
 }
+/* carousel */
+.carousel__style{
+    margin-top: 50px;
+    margin-right: -474px;
+}
+.carousel__img{
+    width: 50%;
+   margin-left: 345px;
+}
+@media only screen and (max-width: 576px) {
+    .carousel__style{
+        width: 100%;
+        margin-top: 50px;
+        margin-right: -474px;
+    }
+
+    .carousel__img{
+        width: 100%;
+       margin-left: 0px;
+    }
+}
 
 /* Card */
 .card__style {
+    margin-top: -525px;
     margin-left: 106px;
     width: 29rem;
     height: 499px;
@@ -282,4 +304,23 @@
     height: 78px;
     border: none;
     background-color: #E89F71;
+}
+.card__btn:hover{
+   
+    background-color: #eb8b4f;
+    transition: .3s;
+}
+@media only screen and (max-width: 576px) {
+    .card__style {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 100%;
+        height: 499px;
+        background: rgba(255, 255, 255, 0.72);
+        opacity: 0.9;
+    }
+    .card__btn{
+        width: 184px;
+        height: 57px;
+    }
 }
