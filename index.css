@@ -1,6 +1,6 @@
 /* header */
-.header {
-    width: auto;
+.header__style {
+    
 }
 
 .header__column-left {
@@ -183,6 +183,15 @@
     position: absolute;
     padding: 15px;
 }
+/* banner */
+.banner{
+    margin-top: -660px;
+}
+@media only screen and (max-width: 576px) {
+    .banner{
+        margin-top: 0px;
+    }
+}
 
 /* Slider  */
 .slider__btn {
@@ -275,28 +284,35 @@
 /* carousel */
 .carousel__style{
     margin-top: 50px;
-    margin-right: -474px;
+   
 }
 .carousel__img{
-    width: 100%;
-   margin-left:0px;
+    width: 210%;
+    height: 400px;
+}
+.carousel__image-container{
+    grid-gap: 280px;
 }
 @media only screen and (max-width: 576px) {
     .carousel__style{
         width: 100%;
         margin-top: 50px;
-        margin-right: -474px;
+        margin-right: 0px;
     }
 
     .carousel__img{
-        width: 100%;
+        width: 130%;
        margin-left: 0px;
+       height: 200px;
+    }
+    .carousel__image-container{
+        grid-gap: 10px;
     }
 }
 
 /* Card */
 .card__style {
-    margin-top: -380px;
+    margin-top: -540px;
     margin-left: 106px;
     width: 29rem;
     height: 499px;
