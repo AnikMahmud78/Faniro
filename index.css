@@ -6,9 +6,8 @@
 .header__column-left {
     width: 964px;
     height: 774px;
-    left: 0px;
-    top: 0px;
     background: #F9F1E7;
+    padding: 0px;
 }
 
 @media only screen and (max-width: 576px) {
@@ -23,8 +22,17 @@
 }
 
 .header__icon {
+    
     text-align: end;
     padding: 50px;
+}
+.header__icon-decoration{
+    text-decoration: none;
+    color: black;
+}
+.header__icon-decoration:hover{
+    text-decoration: none;
+    color: black;
 }
 
 @media only screen and (max-width: 576px) {
@@ -270,8 +278,8 @@
     margin-right: -474px;
 }
 .carousel__img{
-    width: 50%;
-   margin-left: 345px;
+    width: 100%;
+   margin-left:0px;
 }
 @media only screen and (max-width: 576px) {
     .carousel__style{
@@ -288,7 +296,7 @@
 
 /* Card */
 .card__style {
-    margin-top: -525px;
+    margin-top: -380px;
     margin-left: 106px;
     width: 29rem;
     height: 499px;
