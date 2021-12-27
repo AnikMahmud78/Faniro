@@ -208,6 +208,7 @@
     }
 }
 
+
 .slider__btn-style {
     margin: 6px 6px 6px 6px;
     height: 15px;
@@ -348,7 +349,9 @@
         width: 184px;
         height: 57px;
     }
+    
 }
+
 
 /* body */
 .body__icon-container{
