@@ -1,6 +1,6 @@
 /* header */
 .header__style {
-    
+    padding-bottom: 80px;
 }
 
 .header__column-left {
@@ -223,7 +223,7 @@
 .slider__btn-hover:hover {
 
     border: 1px solid #E89F71;
-    border-radius: 25px;
+    border-radius: 30px;
     transition: .1s;
 
 }
@@ -312,6 +312,7 @@
 
 /* Card */
 .card__style {
+    font-family: Montserrat;
     margin-top: -540px;
     margin-left: 106px;
     width: 29rem;
@@ -347,4 +348,26 @@
         width: 184px;
         height: 57px;
     }
+}
+
+/* body */
+.body__icon-container{
+    font-family: Montserrat;
+    margin-top: 100px;
+}
+.body__icon-row{
+    padding: 20px;
+}
+.body__icon-style{
+    font-size: 50px;
+    margin-top: -10px;
+    color: #444444;
+}
+.body__icon-text p{
+    font-size: 11px;
+    color: #898989;
+}
+.body__icon-text h5{
+    
+    color: #3A3A3A;;
 }
