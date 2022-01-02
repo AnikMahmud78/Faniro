@@ -871,29 +871,119 @@
 .tips__card-body {
     width: 391px;
     height: 119px;
-   
+
 }
-.tips__card-grid{
+
+.tips__card-grid {
     grid-gap: 10px;
 }
-.tips_slider-display{
+
+.tips_slider-display {
     display: none;
 }
+
 @media only screen and (max-width: 576px) {
-    .tips_slider-display{
+    .tips_slider-display {
         display: block;
     }
-    .tips__slider-lg{
+
+    .tips__slider-lg {
         display: none;
     }
-    .tips__style{
+
+    .tips__style {
         margin-top: 200px
     }
-    .tips__slider-btn{
+
+    .tips__slider-btn {
         display: none;
     }
 }
 
+/* Photo Album */
+.photo__album {
+    display: flex;
+
+}
+
+.album__img-primary {
+    padding: 78px 10px 0px 10px;
+    margin: 0px 0px 0px 0px;
+}
+
+.album__img-secondary {
+    padding: 0px 5px 0px 0px;
+    margin: 175px 0px -152px 0px;
+}
+
+.album__img-third {
+    padding: 0px 10px 0px 5px;
+    margin: 102px 0px -54px 0px
+}
+
+.album__img-fourth {
+    overflow: hidden;
+}
+
+.album__img-fifth {
+    padding: 0px 10px 0px 10px;
+    margin: 16px 0px 60px 0px;
+}
+
+.album__img-sixth {
+    padding: 0px 0px 0px 0px;
+    margin: 64px 0px 0px 305px;
+}
+
+.album__img-seventh {
+    padding: 0px 10px 0px 5px;
+    margin: 64px 0px 0px 0px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 576px) {
+    .album__display {
+        display: none;
+    }
+}
+
+/* Footer  */
+.footer__style {
+    font-family: Montserrat;
+}
+
+.divider {
+    border: 1px solid #D8D8D8;
+}
+
+.footer__text {
+    font-size: 12px;
+}
+
+.footer__input {
+    width: 242px;
+    height: 45px;
+    background-color: #F4F5F7;
+    ;
+    border: none;
+}
+
+.footer__input::placeholder {
+    font-size: 12px;
+    padding: 10px;
+}
+
+.footer__input-btn {
+    width: 46px;
+    height: 45px;
+    background: #E89F71;
+    border: none;
+}
+@media only screen and (max-width: 576px) {
+    .footer__style{
+        text-align: center;
+    }
+}
 
 @media only screen and (max-width: 857px) {
 
@@ -971,14 +1061,26 @@
         padding: 0px;
         padding-top: 20px;
     }
+
     /* Tips and tricks  */
-    .tips_slider-display{
+    .tips_slider-display {
         display: block;
     }
-    .tips__slider-lg{
+
+    .tips__slider-lg {
         display: none;
     }
-    .tips__slider-btn{
+
+    .tips__slider-btn {
         display: none;
+    }
+
+    /* photo album  */
+    .album__display {
+        display: none;
+    }
+    /* Footer */
+    .footer__style{
+        text-align: center;
     }
 }
