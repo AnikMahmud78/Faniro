@@ -15,12 +15,6 @@
 
 }
 
-.header__icon {
-
-    padding-top: 50px;
-    padding-left: 58px;
-}
-
 .header__icon-decoration {
     text-decoration: none;
     color: black;
@@ -38,70 +32,39 @@
 /******* navbar*******/
 .navbar-brand__text {
     width: 74px;
-    height: 29px;
+    
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
     color: #000000;
-    margin-top: 48px;
-}
-
-.navbar__container {
-    margin-top: -48px;
+    
 }
 
 .dropdown__product {
-    width: 65px;
-    height: 24px;
+    
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
     color: #3A3A3A;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 8px;
-    margin-top: 51px;
-    padding-right: 80px;
 }
 
 .dropdown__rooms {
 
-    width: 50px;
-    height: 24px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     color: #3A3A3A;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 8px;
 
 }
 
 .nav-link__inspirations {
     cursor: pointer;
-    width: 85px;
-    height: 24px;
-    left: 251px;
-    top: 0px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    color: #3A3A3A;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    margin: 0px 40px;
+   
 }
 
 .search__input {
@@ -117,8 +80,7 @@
 }
 
 .search {
-    padding-left: 270px;
-    margin-top: 55px;
+    
     width: 100%;
 }
 
@@ -132,6 +94,7 @@
     background: linear-gradient(to right, #f9f1e7 0%, #f9f1e7 68%, #fcf8f3 68%, #fcf8f3 100%);
 
 }
+
 
 /******* Banner Slider  *******/
 .slider__btn {
@@ -221,10 +184,13 @@
 }
 
 /******* Banner Card *******/
+.banner__card-flex{
+    display: flex;
+    justify-content: flex-end;
+}
 .card__style {
     font-family: Montserrat;
     margin-top: -540px;
-    margin-left: 106px;
     width: 29rem;
     height: 499px;
     background: rgba(255, 255, 255, 0.72);
@@ -252,8 +218,8 @@
 
 .header__card {
     font-family: Montserrat;
-    margin-left: 779px;
-    margin-top: -135px;
+    
+    margin-top: -170px;
     width: 18rem;
     background: rgba(255, 255, 255, 0.72);
     backdrop-filter: blur(31px);
@@ -410,12 +376,15 @@
     position: sticky;
 
 }
+.ShowMoreProduct__btn-align{
+    text-align: center;
+}
 
 .ShowMoreProduct__btn {
     color: #E89F71;
     width: 245px;
     height: 48px;
-    margin-left: 555px;
+   
     margin-top: 40px;
     margin-bottom: 10px;
     background: #FFFFFF;
@@ -505,13 +474,16 @@
 
 .product__slider-card {
     font-family: Montserrat;
-    margin-left: 696px;
-    margin-top: -104px;
     width: 14rem;
     background: rgba(255, 255, 255, 0.72);
     backdrop-filter: blur(31px);
     opacity: 0.7;
+    margin-top: -75px;
 
+}
+.product__slider-card-flex{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .responsive_slider {
@@ -551,8 +523,10 @@
 }
 
 .album__img-primary {
-    padding: 78px 10px 0px 10px;
-    margin: 0px 0px 0px 0px;
+    padding: 78px 0px 0px 0px;
+    margin: 0px 9px 0px 9px;
+    
+   
 }
 
 .album__img-secondary {
@@ -585,6 +559,9 @@
     padding: 0px 10px 0px 5px;
     margin: 62px 0px 0px 0px;
     overflow: hidden;
+}
+#carouselExampleCaptionsGallery{
+    display: none;
 }
 /****** Footer ******/
 .footer__style {
@@ -657,12 +634,6 @@
         margin-top: 0px;
     }
 
-    .dropdown__rooms {
-        margin-top: -42px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-
     .nav-link__inspirations {
         margin: 0px 0px 0px 0px;
     }
@@ -683,9 +654,7 @@
     /*---------
        Products
       ----------  */
-    .ShowMoreProduct__btn {
-        margin-left: 255px;
-    }
+    
 
     .product__card-btn {
 
@@ -793,6 +762,9 @@
     .album__display {
         display: none;
     }
+    #carouselExampleCaptionsGallery{
+        display: block;
+    }
 
     /*---------
        Footer
@@ -848,11 +820,6 @@
         padding-left: 0px;
     }
 
-    .dropdown__rooms {
-        margin: 0px 0px;
-        margin-top: -30px;
-
-    }
 
     .dropdown__product {
         margin-top: 0px;
@@ -864,21 +831,14 @@
     }
 
     .search__input {
-        margin-top: 70px !important;
-        margin-left: -48px !important;
+       
         width: 100% !important;
-        height: 32px !important;
+       
 
     }
 
     .search {
-        padding-left: 0px;
-        margin-top: 0px;
         width: 100%;
-    }
-
-    .search__icon {
-        margin: 63px 0px 0px -46px !important;
     }
 
     /*------------------
@@ -954,9 +914,6 @@
     /*----------
       Products 
      ----------- */
-    .ShowMoreProduct__btn {
-        margin-left: 28px;
-    }
 
     .product__card-btn {
 
@@ -1058,7 +1015,10 @@
      Photo Album 
      ------------- */
     .album__display {
-        display: none;
+       display: none;
+    }
+    #carouselExampleCaptionsGallery{
+        display: block;
     }
     /*--------
       Footer

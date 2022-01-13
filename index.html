@@ -46,7 +46,6 @@
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                             </ul>
                         </li>
-                        <br>
                         <li class="nav-item dropdown dropdown__rooms">
                             <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -62,14 +61,14 @@
                         </li>
 
                     </ul>
-                    <form class="d-flex ">
+                    <form class="">
                         <div class="search">
                             <i class="fas fa-search search__icon"></i>
                             <input class="search__input " type="search" placeholder="Search for minimalist chair"
                                 aria-label="Search">
                         </div>
                     </form>
-                    <div class="header__icon ">
+                    <div class="header__icon container-fluid">
                         <a class="header__icon-decoration" href="">
                             <i class="far fa-heart header__icon-padding"></i>
                             <i class="fas fa-shopping-cart header__icon-padding"></i>
@@ -179,71 +178,75 @@
         </div>
     </section>
     <!-- Banner Card  -->
-    <section>
+    <div class="banner__card-flex container-fluid">
         <!--Primary Card -->
-        <div class="card card__style">
-            <div class="card-body card__body-style">
-                <h1 class="card-title fs-1 ">High-Quality
-                    Furniture Just
-                    For You</h1>
-                <p class="card-subtitle mb-5 mt-5 text-muted">Our furniture is made from selected and best quality
-                    materials that are suitable for your dream home</p>
-                <button class="card__btn">Shop Now</button>
-            </div>
-        </div>
-    </section>
-    <!--secondary Card -->
-    <section class="header__card-display">
-        <div class="header__card">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold">Bohauss</h5>
-                    <p class="card-subtitle mb-2 text-muted"><small>Luxury big sofa 2-seat</small></p>
-                    <span class="d-flex justify-content-between">
-                        <h6 class="card-text fw-bold"> Rp 17.000.000</h6>
-                        <a href="">
-                            <i class="fas fa-arrow-right text-dark"></i>
-                        </a>
-                    </span>
-
+        <div class="container-fluid">
+            <div class="card card__style">
+                <div class="card-body card__body-style">
+                    <h1 class="card-title fs-1 ">High-Quality
+                        Furniture Just
+                        For You</h1>
+                    <p class="card-subtitle mb-5 mt-5 text-muted">Our furniture is made from selected and best quality
+                        materials that are suitable for your dream home</p>
+                    <button class="card__btn">Shop Now</button>
                 </div>
             </div>
         </div>
-    </section>
+        <!--secondary Card -->
+        <div class="header__card-display container-fluid">
+            <section class="header__card-display">
+                <div class="header__card">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Bohauss</h5>
+                            <p class="card-subtitle mb-2 text-muted"><small>Luxury big sofa 2-seat</small></p>
+                            <span class="d-flex justify-content-between">
+                                <h6 class="card-text fw-bold"> Rp 17.000.000</h6>
+                                <a href="">
+                                    <i class="fas fa-arrow-right text-dark"></i>
+                                </a>
+                            </span>
+        
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
     <!-- features -->
-    <section class="container container-fluid body__icon-container ">
-        <div class="row body__icon-row">
-            <div class="col-sm-3">
-                <div class="d-flex justify-content-between">
-                    <span class="body__icon-style"><i class="fas fa-trophy"></i></span>
-                    <span class="px-4 body__icon-text">
+    <section class=" container-fluid body__icon-container ">
+        <div class="row row-cols-lg-4 mx-auto body__icon-row">
+            <div class="col-sm-3 ">
+                <div class="d-flex justify-content-around ">
+                    <span class="body__icon-style"><i class="fas fa-trophy text-wrap"></i></span>
+                    <span class="px-4 body__icon-text text-wrap">
+                        <h5 class="fw-bold ">High Quality</h5>
+                        <p>crafted from top materials</p>
+                    </span>
+                </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="d-flex justify-content-around ">
+                    <span class="body__icon-style"><i class="far fa-check-circle text-wrap"></i></span>
+                    <span class="px-4 body__icon-text text-wrap">
                         <h5 class="fw-bold">High Quality</h5>
                         <p>crafted from top materials</p>
                     </span>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="d-flex justify-content-between">
-                    <span class="body__icon-style"><i class="far fa-check-circle"></i></span>
-                    <span class="px-4 body__icon-text">
-                        <h5 class="fw-bold">High Quality</h5>
-                        <p>crafted from top materials</p>
-                    </span>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="d-flex justify-content-between">
-                    <span class="body__icon-style"><i class="fas fa-shipping-fast"></i></span>
-                    <span class="px-4 body__icon-text">
+            <div class="col-sm-3 ">
+                <div class="d-flex justify-content-around ">
+                    <span class="body__icon-style"><i class="fas fa-shipping-fast text-wrap"></i></span>
+                    <span class="px-4 body__icon-text text-wrap">
                         <h5 class="fw-bold">Free Shipping</h5>
                         <p>Order over 150 $</p>
                     </span>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="d-flex justify-content-between">
-                    <span class="body__icon-style"><i class="fas fa-headset"></i></span>
-                    <span class="px-4 body__icon-text">
+            <div class="col-sm-3 ">
+                <div class="d-flex justify-content-around">
+                    <span class="body__icon-style"><i class="fas fa-headset text-wrap"></i></span>
+                    <span class="px-4 body__icon-text text-wrap">
                         <h5 class="fw-bold">24 / 7 Support</h5>
                         <p>Dedicated support</p>
                     </span>
@@ -466,11 +469,13 @@
                 </div>
             </div>
         </div>
+       <div class="container-fluid ShowMoreProduct__btn-align">
         <button class="ShowMoreProduct__btn">Show More</button>
+       </div>
 
     </section>
     <!-- product slider -->
-    <section>
+    <section class="">
         <div class="product__slider  pt-3">
             <div class="product__slider-flex ">
                 <!-- for sm and md device -->
@@ -597,8 +602,9 @@
             </div>
             <!--product slider Card -->
             <section class="header__card-display">
-                <div class=" product__slider-card">
-                    <div class="card" style="width: 14rem;">
+                <div class=" product__slider-card-flex container-fluid">
+                    <div></div>
+                    <div class="card product__slider-card " style="width: 14rem;">
                         <div class="card-body">
                             <p class="card-subtitle mb-2 text-muted">01--Bed Room</p>
                             <span class="d-flex justify-content-between">
@@ -802,27 +808,160 @@
             </div>
         </div>
     </section>
-    <!-- share your setup  -->
-    <section class="album__display">
+<!-- share your setup  --> 
+  <!-- Gallery -->
+    <div>
         <div class="text-center pt-5">
             <p class="text-muted p-0 m-0"><small>Share your setup with</small></p>
             <h1>#FuniroFurniture</h1>
         </div>
-        <div class="photo__album ">
-            <img class="" src="images/Rectangle 36.png" alt="">
-            <img class=" album__img-primary" src="images/Rectangle 38.png" alt="">
-            <img class="album__img-secondary" src="images/Rectangle 40.png" alt="">
-            <img class="album__img-third" src="images/Rectangle 43.png" alt="">
-            <img class="album__img-fourth" src="images/Rectangle 45.png" alt="">
+        <div id="carouselExampleControls" class="carousel slide" data-interval="false" data-bs-ride="carousel1">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <section class="album__display">
+                    <div class="photo__album ">
+                        <img class="" src="images/Rectangle 36.png" alt="">
+                        <img class=" album__img-primary" src="images/Rectangle 38.png" alt="">
+                        <img class="album__img-secondary" src="images/Rectangle 40.png" alt="">
+                        <img class="album__img-third" src="images/Rectangle 43.png" alt="">
+                        <img class="album__img-fourth" src="images/Rectangle 45.png" alt="">
+                    </div>
+                    <div class="photo__album  ">
+                        <img class="pt-2" src="images/Rectangle 37.png" alt="">
+                        <img class=" album__img-fifth" src="images/Rectangle 39.png" alt="">
+            
+                        <img class="album__img-sixth" src="images/Rectangle 41.png" alt="">
+                        <img class="album__img-seventh" src="images/Rectangle 44.png" alt="">
+                    </div>
+                </section>
+              </div>
+              <div class="carousel-item">
+                <section class="album__display">
+                    <div class="photo__album ">
+                        <img class="" src="images/Rectangle 36.png" alt="">
+                        <img class=" album__img-primary" src="images/Rectangle 38.png" alt="">
+                        <img class="album__img-secondary" src="images/Rectangle 40.png" alt="">
+                        <img class="album__img-third" src="images/Rectangle 43.png" alt="">
+                        <img class="album__img-fourth" src="images/Rectangle 45.png" alt="">
+                    </div>
+                    <div class="photo__album ">
+                        <img class="pt-2" src="images/Rectangle 37.png" alt="">
+                        <img class=" album__img-fifth" src="images/Rectangle 39.png" alt="">
+            
+                        <img class="album__img-sixth" src="images/Rectangle 41.png" alt="">
+                        <img class="album__img-seventh" src="images/Rectangle 44.png" alt="">
+                    </div>
+                </section>
+              </div>
+              <div class="carousel-item">
+                <section class="album__display">
+                    <div class="photo__album ">
+                        <img class="" src="images/Rectangle 36.png" alt="">
+                        <img class=" album__img-primary" src="images/Rectangle 38.png" alt="">
+                        <img class="album__img-secondary" src="images/Rectangle 40.png" alt="">
+                        <img class="album__img-third" src="images/Rectangle 43.png" alt="">
+                        <img class="album__img-fourth" src="images/Rectangle 45.png" alt="">
+                    </div>
+                    <div class="photo__album ">
+                        <img class="pt-2" src="images/Rectangle 37.png" alt="">
+                        <img class=" album__img-fifth" src="images/Rectangle 39.png" alt="">
+            
+                        <img class="album__img-sixth" src="images/Rectangle 41.png" alt="">
+                        <img class="album__img-seventh" src="images/Rectangle 44.png" alt="">
+                    </div>
+                </section>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <!-- for sm and md device  -->
+    <div id="carouselExampleCaptionsGallery" class="carousel slide my-3 tips__slider-lg"data-interval="false" data-bs-ride="carousel2">
+        <div class="carousel-inner">
+            <div class="carousel-item active ">
+                <div class="row row-cols-md-3 container-fluid mx-auto">
+                    <div class="col">
+                        <div class="shadow">
+                            <img src="images/Rectangle 43.png" class="img-fluid" alt="...">
+                           
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class=" shadow">
+                            <img src="images/Rectangle 43.png" class="img-fluid" alt="...">
+                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="shadow">
+                            <img src="images/Rectangle 43.png" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="row row-cols-md-3 container-fluid mx-auto">
+                    <div class="col">
+                        <div class="shadow">
+                            <img src="images/Rectangle 43.png" class="img-fluid" alt="...">
+                           
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class=" shadow">
+                            <img src="images/Rectangle 43.png" class="img-fluid" alt="...">
+                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="shadow">
+                            <img src="images/Rectangle 43.png" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="row row-cols-md-3 container-fluid mx-auto">
+                    <div class="col">
+                        <div class="shadow">
+                            <img src="images/Rectangle 43.png" class="img-fluid" alt="...">
+                           
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class=" shadow">
+                            <img src="images/Rectangle 43.png" class="img-fluid" alt="...">
+                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="shadow">
+                            <img src="images/Rectangle 43.png" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="photo__album ">
-            <img class="pt-2" src="images/Rectangle 37.png" alt="">
-            <img class=" album__img-fifth" src="images/Rectangle 39.png" alt="">
-
-            <img class="album__img-sixth" src="images/Rectangle 41.png" alt="">
-            <img class="album__img-seventh" src="images/Rectangle 44.png" alt="">
-        </div>
-    </section>
+        <button class="carousel-control-prev  " type="button"
+            data-bs-target="#carouselExampleCaptionsGallery" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true">
+            </span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next  " type="button"
+            data-bs-target="#carouselExampleCaptionsGallery" data-bs-slide="next">
+            <span class="carousel-control-next-icon " aria-hidden="true">
+            </span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
     <!-- Footer  -->
     <footer class="container pt-5 footer__style">
         <div class="divider mt-4"></div>
